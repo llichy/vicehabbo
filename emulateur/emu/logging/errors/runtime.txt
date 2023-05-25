@@ -1,0 +1,201 @@
+00:34:18.932 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331699 - discarded".
+00:45:49.057 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331699 - discarded".
+01:54:47.020 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 218762510 - discarded".
+01:54:47.076 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+01:54:47.111 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1212501076 - discarded".
+01:54:47.145 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1148019800 - discarded".
+01:54:47.183 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1330664525 - discarded".
+01:54:47.216 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1330664525 - discarded".
+01:54:47.248 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 2147483692 - discarded".
+01:54:47.279 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1966090 - discarded".
+01:54:47.315 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295364 - discarded".
+01:54:47.350 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295364 - discarded".
+01:54:57.426 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1811942148 - discarded".
+01:54:57.458 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1330664525 - discarded".
+01:54:58.276 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295364 - discarded".
+01:54:58.381 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 234881028 - discarded".
+01:54:58.764 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295364 - discarded".
+01:55:02.705 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+01:55:02.820 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295622 - discarded".
+01:55:07.688 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295622 - discarded".
+06:01:10.837 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+06:22:58.226 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 33619972 - discarded".
+06:22:58.252 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 33619972 - discarded".
+08:10:43.761 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, exception in GameMessageHander.
+java.lang.ClassCastException: class io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest cannot be cast to class com.eu.habbo.messages.ClientMessage (io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest and com.eu.habbo.messages.ClientMessage are in unnamed module of loader 'app')
+	at com.eu.habbo.networking.gameserver.decoders.GameMessageHandler.channelRead(GameMessageHandler.java:35)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at com.eu.habbo.networking.gameserver.handlers.IdleTimeoutHandler.channelRead(IdleTimeoutHandler.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:82)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler.channelRead(WebSocketServerProtocolHandshakeHandler.java:65)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at org.krews.plugin.nitro.websockets.handlers.CustomHTTPHandler.channelRead(CustomHTTPHandler.java:26)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:425)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+08:37:30.485 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295620 - discarded".
+08:37:30.729 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295620 - discarded".
+08:37:30.986 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+10:03:08.984 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, exception in GameMessageHander.
+java.lang.ClassCastException: class io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest cannot be cast to class com.eu.habbo.messages.ClientMessage (io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest and com.eu.habbo.messages.ClientMessage are in unnamed module of loader 'app')
+	at com.eu.habbo.networking.gameserver.decoders.GameMessageHandler.channelRead(GameMessageHandler.java:35)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at com.eu.habbo.networking.gameserver.handlers.IdleTimeoutHandler.channelRead(IdleTimeoutHandler.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:82)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler.channelRead(WebSocketServerProtocolHandshakeHandler.java:65)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at org.krews.plugin.nitro.websockets.handlers.CustomHTTPHandler.channelRead(CustomHTTPHandler.java:26)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:425)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+11:33:09.400 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+12:38:47.639 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+12:38:48.291 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295620 - discarded".
+12:38:48.915 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295620 - discarded".
+12:39:01.482 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1431520598 - discarded".
+13:39:34.525 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331696 - discarded".
+13:39:34.598 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331696 - discarded".
+13:39:34.682 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331696 - discarded".
+14:10:26.109 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331699 - discarded".
+19:05:07.226 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+20:02:03.317 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1129270866 - discarded".
+20:36:10.924 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+21:12:02.254 [GameWorker-4-1] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 369295620 - discarded".
+21:12:13.378 [GameWorker-4-2] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 1195725860 - discarded".
+21:12:23.452 [GameWorker-4-3] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, reason: "Adjusted frame length exceeds 417792: 50331671 - discarded".

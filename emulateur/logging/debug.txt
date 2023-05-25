@@ -1,0 +1,4 @@
+19:25:06.319 [main] DEBUG com.eu.habbo.Emulator - Debugging enabled.
+19:35:08.617 [main] DEBUG com.eu.habbo.Emulator - Debugging enabled.
+19:49:52.275 [main] DEBUG com.eu.habbo.Emulator - Debugging enabled.
+19:54:38.421 [main] DEBUG com.eu.habbo.Emulator - Debugging enabled.
