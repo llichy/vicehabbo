@@ -1,0 +1,51 @@
+{
+    "debug": true,
+    "website_url": "https://vicehabbo.fr",
+    "websocket_url": "wss://ws.vicehabbo.fr:8443",
+    "functions": {
+        "walk_with_keys": true,
+        "interaction_user_menu": true,
+        "eventalert": {
+            "avatar_image": "https://avatar.vicehabbo.fr/imaging/?figure=%figure%&headonly=1&head_direction=4",
+            "image": "https://ws.vicehabbo.fr/banzai.webp",
+            "little": "https://ws.vicehabbo.fr/Bb_pyramid_small.webp"
+        }
+    },
+    "texts": {
+        "debug": {
+            "types": {
+                "event": "EVENT",
+                "info": "INFO",
+                "error": "ERROR",
+                "incoming": "INCOMING",
+                "outgoing": "OUTGOING"
+            },
+            "connected": "La connection au websocket est ok !",
+            "disconnected": "Le serveur a perdu la connexion avec les websockets."
+        },
+        "mention": {
+            "closeall": "Fermer",
+            "you": "Toi"
+        },
+        "eventalert": {
+            "title": "Une animation va commencer",
+            "subtitle": "Pour désactiver tape :eventoff ",
+            "close": "Fermer",
+            "go": "Jouer"
+        },
+        "youtubetv": {
+            "select": "Selectionner une vidéo à voir.",
+            "play": "Jouer la vidéo."
+        },
+        "interactionMenu": {
+            "kiss": "Embrasser %username%",
+            "hug": "Calin %username%",
+            "slime": "Jeter du vomis sur %username%",
+            "pull": "Pull %username%",
+            "push": "Push %username%",
+            "bomb": "Exploser %username%",
+            "sex": "Sex avec %username%",
+            "enable": "Enable staff"
+        }
+    }
+}

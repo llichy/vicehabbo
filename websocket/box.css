@@ -1,0 +1,975 @@
+.buttons {
+    z-index: 99999;
+    margin-top: 20px;
+    position: fixed;
+    background: rgb(49 42 52 / 90%);
+    right: 0px;
+    bottom: 270px;
+    width: 50px;
+}
+
+#close {
+    position: absolute;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    width: 14px;
+    background: rgb(0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -14px;
+    cursor: pointer;
+}
+
+#close #close-button {
+    height: 10px;
+    width: 7px;
+    background: url("https://i.imgur.com/V8bkxhS.png") -18px 0px;
+}
+
+.buttons .button {
+    position: relative;
+    z-index: 9999;
+    height: 34px;
+    left: 8px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    width: 36px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.buttons .button:hover .tooltip {
+    display: block;
+}
+
+.buttons .button .tooltip {
+    opacity: 100;
+    position: absolute;
+    background: white;
+    display: none;
+    padding: 8px 10px;
+    text-align: center;
+    right: 60px;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 0px 6px;
+    border-radius: 10px;
+}
+
+.selectPHB {
+    background-color: rgb(239 238 238);
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    z-index: 8801;
+    box-sizing: content-box;
+    overflow-wrap: break-word;
+}
+
+.buttons .button .tooltip .arrow {
+    width: 0px;
+    right: -6px;
+    top: 12px;
+    height: 0px;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 0px 5px 6px;
+    border-color: transparent transparent transparent rgb(255, 255, 255);
+}
+
+.buttons .button .icon {
+    height: 28px;
+    width: 31px;
+}
+
+.buttons .button .sexo {
+    background: url("https://i.imgur.com/hhXBLrk.gif") no-repeat;
+}
+
+.buttons .button .enable {
+    background: url("https://i.imgur.com/b31NzMz.png") no-repeat;
+}
+
+.buttons .button .beijar {
+    background: url("https://i.imgur.com/caxuNdU.png") no-repeat;
+}
+
+.buttons .button .abracar {
+    background: url("https://i.imgur.com/ml4pRp6.png") no-repeat;
+}
+
+.buttons .button .slime {
+    background: url("https://i.imgur.com/yjezViI.png") no-repeat;
+}
+
+.buttons .button .puxar {
+    background: url("https://i.imgur.com/zGl6EFM.png") no-repeat;
+}
+
+.buttons .button .empurrar {
+    background: url("https://i.imgur.com/nwk4Rgc.png") no-repeat;
+}
+
+.buttons .button .explodir {
+    background: url("https://i.imgur.com/Ea7AYX7.png") no-repeat;
+}
+
+.buttons .button:hover {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+body {
+    font-family: Ubuntu, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    font-family: normal;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: normal;
+    src: url("power.woff2");
+}
+
+@font-face {
+    font-family: habbofont;
+    src: url("habbfont.woff2");
+}
+
+.ne1 {
+    position: fixed;
+    z-index: 999999999;
+    left: -1000px;
+    background: rgb(61, 61, 61);
+    width: 430px;
+    height: calc(100% - 50px);
+    top: 0px;
+}
+
+.ne2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 355px 115px 0px;
+    border-color: rgb(61, 61, 61) transparent transparent;
+    right: -100px;
+}
+
+.ne3 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 140px 0px 140px 55px;
+    border-color: transparent transparent transparent rgb(35, 35, 35);
+    right: -55px;
+    top: 310px;
+}
+
+.ne4 {
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 140px 0px 140px 55px;
+    border-color: transparent transparent transparent rgb(47, 47, 47);
+    right: -42px;
+    top: 310px;
+}
+
+.ne5 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: url("https://i.imgur.com/FNbSoL1.png") -95px -49px;
+    left: -45px;
+    top: -13px;
+}
+
+.ne6 {
+    position: absolute;
+    height: 37px;
+    width: 113px;
+    background: rgb(47, 47, 47);
+    border-radius: 9px;
+    right: -50px;
+    top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 0px;
+}
+
+.ne7 {
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    background: url("https://i.imgur.com/FNbSoL1.png") -4px -61px;
+    left: 17px;
+    top: 7px;
+}
+
+.ne8 {
+    position: absolute;
+    height: calc(100% - 110px);
+    width: 374px;
+    overflow: hidden auto;
+    top: 90px;
+    left: 20px;
+    padding-right: 10px;
+}
+
+.ne9 {
+    font-family: normal;
+    position: relative;
+    font-size: 220%;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.ne30 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.ne30 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.ne25 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 160px;
+    border-radius: 8px;
+    width: 100%;
+    background: rgb(0, 174, 240);
+}
+
+.ne26 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.ne27 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.ne28 {
+    position: absolute;
+    padding: 7px;
+    width: calc(100% - 14px);
+    color: rgb(255, 255, 255);
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 120%;
+    font-family: normal;
+}
+
+.ne29 {
+    position: absolute;
+    height: 53px;
+    top: -15px;
+    right: 10px;
+    width: 45px;
+    background: url("https://i.imgur.com/FNbSoL1.png") -3px -4px;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ne8::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ne8::-webkit-scrollbar-track {
+    background: 0px 0px;
+}
+
+.ne8::-webkit-scrollbar-thumb {
+    background: rgb(210, 210, 210);
+    border-radius: 6px;
+}
+
+:focus {
+    outline: 0px;
+}
+
+.list_txt {
+    overflow: auto;
+    width: 431px;
+    height: 302px;
+}
+
+.youtube {
+    border: none;
+}
+
+.youtube_frame {
+    background: rgb(68, 68, 68);
+    float: left;
+    width: 431px;
+    height: 302px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 9px;
+}
+
+.list_musica {
+    overflow: auto;
+    width: 300px;
+    height: 274px;
+    margin-top: 12px;
+    float: left;
+}
+
+.box_musica {
+    background: url("https://i.imgur.com/O06SkYH.png");
+    height: 42px;
+}
+
+.txt_1 {
+    padding: 3px 0px 1px 8px;
+    margin-top: 3px;
+    color: black;
+}
+
+.txt_2 {
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    margin-top: -2px;
+    float: left;
+}
+
+.illumina-box::-webkit-scrollbar {
+    width: 17px;
+}
+
+.illumina-box::-webkit-scrollbar-track {
+    background: url("https://i.imgur.com/EhAxTRS.png");
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.illumina-box::-webkit-scrollbar-thumb {
+    background: url("https://i.imgur.com/GJ60rOw.png");
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.illumina-box::-webkit-scrollbar-thumb:hover {}
+
+.fullscreen-alert {
+    color: rgb(255, 255, 255);
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 8805;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.fullscreen-alert-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fullscreen-alert-content h1 {
+    color: rgb(119, 191, 225);
+    font-size: 28px;
+}
+
+.fullscreen-alert-icon {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.fullscreen-alert-line {
+    width: 25%;
+    margin: 5px auto;
+    border-top: 1px solid rgba(119, 191, 225, 0.35);
+}
+
+.fullscreen-alert-msg {
+    color: rgb(255, 255, 255);
+    position: relative;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.fullscreen-alert-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 124, 66);
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    box-shadow: rgb(142, 218, 85) 2px 2px 0px inset, rgb(142, 218, 85) 2px -2px 0px inset, rgb(142, 218, 85) -2px 2px 0px inset, rgb(142, 218, 85) -2px -2px 0px inset;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 0px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.illumina-box {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 20px, rgb(0, 0, 0) 0px 0px 0px 1px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(61, 61, 61);
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    z-index: 8801;
+    box-sizing: content-box;
+    overflow-wrap: break-word;
+}
+
+.illumina-box span {
+    font-size: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.illumina-box input[type="text"] {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: rgb(122, 122, 122) 0px 0px 0px 1px;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 8px;
+    margin: 4px 8px 0px auto;
+    display: block;
+    cursor: text;
+    width: 92%;
+}
+
+.illumina-box button {
+    box-shadow: rgb(122, 122, 122) 0px 0px 0px 1px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    margin-top: 25px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.illumina-box-title {
+    font-family: Arial, serif;
+    font-size: 0.68em;
+    font-weight: 700;
+    color: rgb(11, 11, 11);
+    padding: 5px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.illumina-button-minimize {
+    background-image: url("../img/illumina-minimize.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.illumina-button-add {
+    background-image: url("../img/illumina-add.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.illumina-button-close {
+    background-image: url("https://i.imgur.com/K4vWs27.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+}
+
+body {
+    overflow: hidden;
+}
+
+.lateral-card {
+    overflow: hidden;
+    z-index: 897;
+    display: none;
+    position: absolute;
+    width: 15%;
+    top: 195px;
+    left: 85%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(61, 61, 61);
+    float: right;
+}
+
+.lateral-card .close {
+    width: 20px;
+    height: 100%;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+    position: inherit;
+    z-index: 899;
+    cursor: pointer;
+    background: url("../img/lateral-card-close.png") center center no-repeat rgb(42, 41, 36);
+}
+
+.lateral-card .image {
+    width: 100%;
+    height: 75px;
+    display: block;
+    z-index: 898;
+    max-height: calc(100% - 600px);
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(42, 41, 36);
+    background: url("../img/test-image.png") center center;
+}
+
+.lateral-card .content {
+    margin-left: 25px;
+    position: relative;
+    height: 45%;
+    color: rgb(255, 255, 255);
+}
+
+.lateral-card .content h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.lateral-card hr {
+    width: calc(100% + 25px);
+    margin-left: -25px;
+    border: 0.5px solid rgb(42, 41, 36);
+    margin-bottom: 0px;
+}
+
+.lateral-card .content p {
+    margin-top: 0px;
+    text-align: center;
+    word-break: keep-all;
+    margin-bottom: 0px;
+    height: 75%;
+}
+
+.lateral-card .button {
+    width: calc(100% - 20px);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: large;
+    padding: 5%;
+    text-decoration: none;
+    background-color: rgb(42, 41, 36);
+}
+
+#notifcontainer {
+    position: fixed;
+    display: none;
+    width: 350px;
+    top: 120px;
+    max-height: calc(100% - 20px);
+    left: 0px;
+    z-index: 2147483647;
+}
+
+.notifelement {
+    position: absolute;
+    border-radius: 10px;
+    width: 220px;
+    left: -500px;
+    margin-bottom: 20px;
+    padding-bottom: 55px;
+    background: rgb(255 255 255);
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 0px 57px 0px;
+}
+
+#ntf1 {
+    position: relative;
+    left: 10px;
+    border-bottom: 2px solid rgba(31, 31, 31, 0.13);
+    width: calc(100% - 30px);
+    height: 46px;
+}
+
+#ntf2 {
+    position: absolute;
+    width: 36px;
+    top: 10px;
+    height: 28px;
+    background: url("https://i.imgur.com/BqwW8zV.png") -162px -222px;
+}
+
+#ntf3 {
+    color: black;
+    position: absolute;
+    font-size: 120%;
+    left: 35px;
+    font-family: normal;
+    top: 13px;
+    line-height: 1;
+}
+
+#ntf4 {
+    position: relative;
+    overflow-wrap: break-word;
+    font-size: 113%;
+    color: rgb(0 0 0);
+    width: calc(100% - 30px);
+    left: 15px;
+    margin-top: 10px;
+}
+
+#ntf5 {
+    position: absolute;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background: rgb(107 41 135);
+    bottom: 10px;
+    right: 10px;
+    border-radius: 12px;
+    box-sizing: content-box;
+    top: 8px;
+}
+
+#ntf5:hover {
+    opacity: 0.7;
+}
+
+#ntf6 {
+    font-family: normal;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: -50px;
+    background: rgb(107 41 135);
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    align-items: center;
+    width: 220px;
+    font-size: 116%;
+}
+
+#ntf6:hover {
+    background: rgb(145 71 177);
+}
+
+#ntf7 {
+    position: absolute;
+    height: 12px;
+    top: 11px;
+    left: 12px;
+    width: 12px;
+    background: url("https://i.imgur.com/UjVMW88.png") -21px -1px;
+}
+
+#ntf8 {
+    position: absolute;
+    height: 17px;
+    top: 8px;
+    left: 9px;
+    width: 19px;
+    background: url("https://i.imgur.com/9XAtE6k.png") -1px -1px;
+}
+
+#ntf9 {
+    position: absolute;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 2px solid rgba(21, 20, 20, 0.08);
+    font-size: 100%;
+    color: rgb(199, 70, 70);
+    background: rgba(27, 27, 27, 0.81);
+    bottom: 10px;
+    left: 10px;
+    border-radius: 12px;
+    height: 14px;
+    width: 0px;
+    box-sizing: content-box;
+}
+
+#ntf10 {
+    position: absolute;
+    height: 16px;
+    top: 5px;
+    left: 9px;
+    width: 14px;
+    background: url("https://i.imgur.com/9XAtE6k.png") -34px -1px;
+}
+
+#ntf11 {
+    position: absolute;
+    color: rgb(208, 208, 208);
+    font-size: 0%;
+    left: 30px;
+    font-family: normal;
+    top: 6px;
+}
+
+#ntf12 {
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    border-radius: 12px;
+    width: 100%;
+    background: white;
+}
+
+#ntf13 {
+    width: calc(100% - 20px);
+    font-family: Normal;
+    font-size: 100%;
+    overflow: hidden;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background: transparent;
+    height: 50px;
+    position: absolute;
+}
+
+#ntf13:focus {
+    outline: none;
+}
+
+#ntf14 {}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    font-family: normal;
+    overflow: hidden;
+}
+
+#hotel13 {
+    position: fixed;
+    min-height: 370px;
+    width: 460px;
+    left: 0px;
+    user-select: none;
+    background: rgba(19, 32, 48, 0.8);
+    z-index: 99999;
+    top: 120px;
+    border-radius: 2px;
+}
+
+#hotel14 {
+    position: relative;
+    width: 590px;
+    min-height: 275px;
+    left: 50%;
+    margin-left: -520px;
+    top: 50%;
+    margin-top: 45px;
+}
+
+#hotel15 {
+    position: absolute;
+    left: 100px;
+    height: 26px;
+    width: 26px;
+    background: rgb(255, 146, 72);
+    border-radius: 100%;
+    top: 5px;
+}
+
+#hotel16 {
+    position: absolute;
+    height: 20px;
+    width: 9px;
+    left: 9px;
+    top: 3px;
+}
+
+#hotel17 {
+    position: absolute;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    left: 130px;
+    text-transform: uppercase;
+    top: 8px;
+}
+
+#hotel18 {
+    position: absolute;
+    border-radius: 2px;
+    font-size: 120%;
+    background: rgb(255, 146, 72);
+    padding: 1px 17px 1px 7px;
+    top: -20px;
+    right: 110px;
+    color: rgb(255, 255, 255);
+}
+
+#hotel19 {
+    position: absolute;
+    left: 460px;
+    top: -25px;
+    margin-top: -27px;
+}
+
+#hotel20 {
+    position: relative;
+    float: left;
+    height: 250px;
+    width: 220px;
+    top: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100px;
+}
+
+#hotel21 {
+    position: absolute;
+    padding: 15px;
+    left: 100px;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    background: rgba(7, 13, 20, 0.5);
+    width: 325px;
+    border-radius: 7px;
+    top: 45px;
+}
+
+#hotel22x {
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    display: -webkit-box;
+    max-height: 500px;
+    -webkit-line-clamp: 13;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#hotel22 {
+    position: relative;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    right: 5px;
+    width: 355px;
+    border-radius: 7px;
+    padding-bottom: 60px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 125px;
+}
+
+#hotel23 {
+    position: relative;
+    top: 0px;
+    font-size: 85%;
+    left: 90px;
+}
+
+#hotel24 {
+    position: relative;
+    float: left;
+    height: 46px;
+    left: -60px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0px 25px;
+    background: rgb(173, 25, 82);
+    border: 3px solid rgb(233, 122, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin-right: 13px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 0px;
+}
+
+#hotel24:hover {
+    background: rgb(209, 31, 98);
+    border: 3px solid rgb(238, 153, 176);
+}
+
+#hotel24:active {
+    border: 3px solid rgb(173, 25, 82);
+    background: rgb(173, 25, 82);
+}
+
+#hotel25 {
+    position: relative;
+    float: left;
+    height: 46px;
+    right: 60px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0px 30px;
+    background: rgb(4, 160, 87);
+    border: 3px solid rgb(187, 246, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 0px;
+}
